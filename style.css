@@ -2291,6 +2291,16 @@ a.contact-detail:hover {
     background: rgba(241, 74, 0, 0.07);
 }
 
+.contact-extra-link {
+    position: relative;
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    pointer-events: auto;
+    text-decoration: none;
+}
+
 .extra-link-icon {
     display: grid;
     place-items: center;
@@ -2598,6 +2608,7 @@ html {
 .project-link:hover {
     gap: 13px;
 }
+
 
 @media (prefers-reduced-motion: reduce) {
     .project-preview img,
